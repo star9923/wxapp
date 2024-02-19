@@ -1,0 +1,4 @@
+<!--components/svg/index.wxml-->
+<block wx:if="{{svgStyle}}">
+    <view class="svg" style='{{svgStyle}}' />
+</block>

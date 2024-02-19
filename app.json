@@ -1,0 +1,22 @@
+{
+	"pages": [
+		"pages/wemark/index"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "weapp",
+		"navigationBarTextStyle": "black"
+	},
+	"sitemapLocation": "sitemap.json",
+	"lazyCodeLoading": "requiredComponents",
+	"usingComponents": {
+		"svg": "components/svg/index"
+	},
+	"networkTimeout": {
+		"request": 60000,
+		"downloadFile": 10000
+	},
+	"debug": true,
+	"__usePrivacyCheck__": true
+}
